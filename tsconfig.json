@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      // ... existing code ...
+      "allowJs": true,
+      "jsx": "react-jsx",
+      "resolveJsonModule": true,
+      "skipLibCheck": true
+    },
+    "include": ["src/**/*"],
+    "references": [{ "path": "./tsconfig.node.json" }]
+  }
