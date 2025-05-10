@@ -1,7 +1,7 @@
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon, ChevronDownIcon } from '@heroicons/react/24/outline'
 import titleLogo from '../assets/title.svg'
-
+import Footer from './footer'
 
 const user = {
     name: 'Tom Cook',
@@ -29,7 +29,7 @@ export default function Layout({ children }) {
     return (
         <>
             <div className="min-h-full">
-                <Disclosure as="nav" className="border-b border-gray-200 bg-white">
+                <Disclosure as="nav" className="sticky top-0 z-40 border-b border-gray-200 bg-white">
                     <div className="mx-auto max-w-7xl px-4 m:px-12">
                         <div className="flex h-18 justify-between items-center">
                             <div className="flex items-center gap-4">
@@ -130,6 +130,7 @@ export default function Layout({ children }) {
                 <div className="m:mt-20 m:gap-20 mt-8 flex flex-col gap-16">
                     {children}
                 </div>
+                <Footer />
             </div>
         </>
     )
