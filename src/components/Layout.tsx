@@ -1,35 +1,33 @@
-import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
+import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon, ChevronDownIcon } from '@heroicons/react/24/outline'
 import titleLogo from '../assets/title.svg'
 import Footer from './footer'
-
-const user = {
-    name: 'Tom Cook',
-    email: 'tom@example.com',
-    imageUrl:
-        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-}
-const navigation = [
-    { name: 'Dashboard', href: '#', current: true },
-    { name: 'Team', href: '#', current: false },
-    { name: 'Projects', href: '#', current: false },
-    { name: 'Calendar', href: '#', current: false },
-]
-const userNavigation = [
-    { name: 'Your Profile', href: '#' },
-    { name: 'Settings', href: '#' },
-    { name: 'Sign out', href: '#' },
-]
+import { motion, useScroll } from "motion/react"
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
 
 export default function Layout({ children }) {
+    const { scrollYProgress } = useScroll()
     return (
         <>
+
             <div className="min-h-full">
                 <Disclosure as="nav" className="sticky top-0 z-40 border-b border-gray-200 bg-white">
+                    <motion.div
+                        id="scroll-indicator"
+                        style={{
+                            scaleX: scrollYProgress,
+                            position: "fixed",
+                            top: 0,
+                            left: 0,
+                            right: 0,
+                            height: 5,
+                            originX: 0,
+                            backgroundColor: "#2ee081",
+                        }}
+                    />
                     <div className="mx-auto max-w-7xl px-4 m:px-12">
                         <div className="flex h-18 justify-between items-center">
                             <div className="flex items-center gap-4">
@@ -74,7 +72,7 @@ export default function Layout({ children }) {
                         </div>
                     </div>
 
-                    <DisclosurePanel className="l:hidden">
+                    {/* <DisclosurePanel className="l:hidden">
                         <div className="space-y-1 pt-2 pb-3">
                             {navigation.map((item) => (
                                 <DisclosureButton
@@ -124,13 +122,18 @@ export default function Layout({ children }) {
                                 ))}
                             </div>
                         </div>
-                    </DisclosurePanel>
+                    </DisclosurePanel> */}
                 </Disclosure>
 
                 <div className="m:gap-20 flex flex-col gap-16">
                     {children}
                 </div>
-                <Footer />
+                <motion.div 
+                    initial={{ opacity: 0, transform: "translateY(120px)" }}
+                    whileInView={{ opacity: 1, transform: "translateY(0px)" }}
+                    transition={{ duration: 1 }}>
+                    <Footer />
+                </motion.div>
             </div>
         </>
     )
