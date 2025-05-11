@@ -8,9 +8,8 @@ interface AppDownloadButtonProps {
 }
 
 const AppDownloadButton: React.FC<AppDownloadButtonProps> = ({ platform, href, imageSrc, imageAlt }) => (
-    <a 
+    <a target="_blank" 
         href={href}
-        target="_blank"
         rel="noopener noreferrer"
         aria-label={`Download on ${platform}`}
         className="block"

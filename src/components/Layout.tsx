@@ -65,9 +65,9 @@ export default function Layout({ children }) {
                                 </div>
                             </div>
                             <div className="flex items-center justify-between gap-8">
-                                <a href="/en/content/business" className="cursor-pointer items-center justify-center whitespace-nowrap font-medium ring-offset-white transition-colors focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-green focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-8 rounded-md text-sm hover:text-blue-2 px-0 py-0 m:inline-flex hidden">For Business</a>
+                                <a target="_blank" href="/en/content/business" className="cursor-pointer items-center justify-center whitespace-nowrap font-medium ring-offset-white transition-colors focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-green focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-8 rounded-md text-sm hover:text-blue-2 px-0 py-0 m:inline-flex hidden">For Business</a>
                                 <button className="cursor-pointer items-center justify-center whitespace-nowrap font-medium ring-offset-white transition-colors focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-green focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-8 rounded-md text-sm hover:text-blue-2 px-0 py-0 m:inline-flex hidden"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="mr-1 h-6 w-6"><path fill="currentColor" fillRule="evenodd" d="M6.75 9.003c.41 0 .75-.34.75-.75V4.5H19v16H7.5v-3.75c0-.41-.34-.75-.75-.75s-.75.34-.75.75v4.5c0 .41.34.75.75.75h13c.41 0 .75-.34.75-.75V3.75c0-.41-.34-.75-.75-.75h-13c-.41 0-.75.34-.75.75v4.503c0 .41.34.75.75.75Z" clipRule="evenodd"></path><path fill="currentColor" fillRule="evenodd" d="m16.52 11.823-3.81-3.71a.754.754 0 0 0-1.06.01c-.29.3-.28.77.01 1.06l2.59 2.53H3.75c-.41 0-.75.34-.75.75s.34.75.75.75h10.37l-2.37 2.43c-.29.3-.28.77.01 1.06.3.29.77.28 1.06-.01l3.71-3.81c.29-.3.28-.77-.01-1.06Z" clipRule="evenodd"></path></svg>Login</button>
-                                <a type="button" className="cursor-pointer items-center justify-center whitespace-nowrap text-md font-medium ring-offset-white transition-colors focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-green focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-11 rounded-md bg-green hover:bg-green-2 text-midnight xs:inline-flex hidden px-4">
+                                <a target="_blank" type="button" className="cursor-pointer items-center justify-center whitespace-nowrap text-md font-medium ring-offset-white transition-colors focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-green focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-11 rounded-md bg-green hover:bg-green-2 text-midnight xs:inline-flex hidden px-4">
                                     Get started
                                 </a>
                             </div>
@@ -127,7 +127,7 @@ export default function Layout({ children }) {
                     </DisclosurePanel>
                 </Disclosure>
 
-                <div className="m:mt-20 m:gap-20 mt-8 flex flex-col gap-16">
+                <div className="m:gap-20 flex flex-col gap-16">
                     {children}
                 </div>
                 <Footer />

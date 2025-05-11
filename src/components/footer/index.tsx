@@ -114,7 +114,7 @@ const Footer: React.FC<FooterProps> = ({ className }) => {
                         <div>
                             <h5 className="text-h6 text-content-primary m:text-h5 font-bold m:mb-1 leading-9">Editorial</h5>
                             <ul>
-                                <li><a href="/magazine/posts/nonfiction-book-list-blinkist" className="text-dark-grey hover:text-blue block text-sm leading-9 font-normal">Book lists</a></li>
+                                <li><a target="_blank" href="/magazine/posts/nonfiction-book-list-blinkist" className="text-dark-grey hover:text-blue block text-sm leading-9 font-normal">Book lists</a></li>
                             </ul>
                         </div>
                     </span>
@@ -123,11 +123,11 @@ const Footer: React.FC<FooterProps> = ({ className }) => {
                         <div>
                             <h5 className="text-h6 text-content-primary m:text-h5 font-bold m:mb-1 leading-9">Useful links</h5>
                             <ul>
-                                <li><a href="/en/pricing" className="text-dark-grey hover:text-blue block text-sm leading-9 font-normal">Pricing</a></li>
-                                <li><a href="/en/content/business?utm_campaign=footer&utm_medium=link&utm_source=homepage" className="text-dark-grey hover:text-blue block text-sm leading-9 font-normal">Blinkist Business</a></li>
-                                <li><a href="/en/nc/gift_cards/new" className="text-dark-grey hover:text-blue block text-sm leading-9 font-normal">Gift Cards</a></li>
-                                <li><a href="https://support.blinkist.com/en" target="_blank" className="text-dark-grey hover:text-blue block text-sm leading-9 font-normal">Contact & Help</a></li>
-                                <li><a href="/en/content/cancellation" className="text-dark-grey hover:text-blue block text-sm leading-9 font-normal">Cancel Subscription</a></li>
+                                <li><a target="_blank" href="/en/pricing" className="text-dark-grey hover:text-blue block text-sm leading-9 font-normal">Pricing</a></li>
+                                <li><a target="_blank" href="/en/content/business?utm_campaign=footer&utm_medium=link&utm_source=homepage" className="text-dark-grey hover:text-blue block text-sm leading-9 font-normal">Blinkist Business</a></li>
+                                <li><a target="_blank" href="/en/nc/gift_cards/new" className="text-dark-grey hover:text-blue block text-sm leading-9 font-normal">Gift Cards</a></li>
+                                <li><a target="_blank" href="https://support.blinkist.com/en" className="text-dark-grey hover:text-blue block text-sm leading-9 font-normal">Contact & Help</a></li>
+                                <li><a target="_blank" href="/en/content/cancellation" className="text-dark-grey hover:text-blue block text-sm leading-9 font-normal">Cancel Subscription</a></li>
                             </ul>
                         </div>
                     </span>
@@ -136,11 +136,11 @@ const Footer: React.FC<FooterProps> = ({ className }) => {
                         <div>
                             <h5 className="text-h6 text-content-primary m:text-h5 font-bold m:mb-1 leading-9">Company</h5>
                             <ul>
-                                <li><a href="/en/about" className="text-dark-grey hover:text-blue block text-sm leading-9 font-normal">About</a></li>
-                                <li><a href="/en/jobs" target="_blank" className="text-dark-grey hover:text-blue block text-sm leading-9 font-normal">Careers</a></li>
-                                <li><a href="/en/affiliates" target="_blank" className="text-dark-grey hover:text-blue block text-sm leading-9 font-normal">Partners</a></li>
-                                <li><a href="https://static.blinkist.com/documents/Blinkist_CodeofConduct.pdf" target="_blank" className="text-dark-grey hover:text-blue block text-sm leading-9 font-normal">Code of Conduct</a></li>
-                                <li><a href="https://press.blinkist.com/" target="_blank" className="text-dark-grey hover:text-blue block text-sm leading-9 font-normal">Press Room</a></li>
+                                <li><a target="_blank" href="/en/about" className="text-dark-grey hover:text-blue block text-sm leading-9 font-normal">About</a></li>
+                                <li><a target="_blank" href="/en/jobs" className="text-dark-grey hover:text-blue block text-sm leading-9 font-normal">Careers</a></li>
+                                <li><a target="_blank" href="/en/affiliates" className="text-dark-grey hover:text-blue block text-sm leading-9 font-normal">Partners</a></li>
+                                <li><a target="_blank" href="https://static.blinkist.com/documents/Blinkist_CodeofConduct.pdf" className="text-dark-grey hover:text-blue block text-sm leading-9 font-normal">Code of Conduct</a></li>
+                                <li><a target="_blank" href="https://press.blinkist.com/" className="text-dark-grey hover:text-blue block text-sm leading-9 font-normal">Press Room</a></li>
                             </ul>
                         </div>
                     </span>

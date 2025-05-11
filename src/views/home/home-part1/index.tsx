@@ -1,6 +1,6 @@
 function HomePart1() {
     return ( 
-        <section className="m:mx-12 mx-4">
+        <section className="mt-8 mx-4 m:mt-20">
             <div className="l:flex-row l:gap-7 mx-auto flex max-w-[80rem] flex-col items-center justify-between gap-12 text-center">
                 <div className="l:w-auto l:items-start relative flex w-full flex-col items-center">
                     <h1 className="container text-h15 l:text-h0 l:mb-8 l:text-left mb-6 flex flex-col text-center">
@@ -15,7 +15,7 @@ function HomePart1() {
                         <span className="px-3 py-1 rounded-full bg-background-purple text-midnight">experts</span> <br />
                         in 15 minutes with the Blinkist app.
                     </p>
-                    <a href="/en/onboarding/matrix" className="cursor-pointer inline-flex whitespace-nowrap text-md font-medium ring-offset-white transition-colors focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-green focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 px-4 py-2 bg-green hover:bg-green-2 text-midnight s:max-w-74 w-full items-center justify-center rounded-lg text-center">
+                    <a target="_blank" href="/en/onboarding/matrix" className="cursor-pointer inline-flex whitespace-nowrap text-md font-medium ring-offset-white transition-colors focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-green focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 px-4 py-2 bg-green hover:bg-green-2 text-midnight s:max-w-74 w-full items-center justify-center rounded-lg text-center">
                         Get started
                     </a>
                 </div>

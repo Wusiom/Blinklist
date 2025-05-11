@@ -88,6 +88,8 @@
   --text-h1--line-height: 3.75rem;
   --text-h2: 2rem;
   --text-h2--line-height: 2.5rem;
+  --text-h3: 1.5rem;
+  --text-h3--line-height: 2rem;
   --text-h35: 1.375rem;
   --text-h35--line-height: 1.875rem;
   --text-h4: 1.125rem;
@@ -110,10 +112,12 @@
   --color-green-2: hsl(var(--extended-green-2) / 1);
   --color-midnight: hsl(var(--brand-midnight) / 1);
   --color-blue: hsl(var(--brand-blue) / 1);
+  --color-blue-1: #03367c;
   --color-blue-7: hsl(var(--extended-blue-7) / 1);
   --color-background-yellow: hsl(var(--extended-summer-yellow-7) / 1);
   --color-background-purple: hsl(var(--extended-orchid-violet-7) / 1);
   --color-summer-yellow: hsl(var(--extended-summer-yellow-4) / 1);
+  --color-summer-yellow-6: rgba(254, 220, 134, 1);
   --color-dark-grey: hsl(var(--neutral-dark-grey) / 1);
   --color-pale-mint-grey: hsl(var(--neutral-pale-mint-grey) / 1);
   --color-lightest-grey: hsl(var(--neutral-lightest-grey) / 1);
@@ -122,6 +126,9 @@
   --color-mid-grey: hsl(var(--neutral-mid-grey) / 1);
   --color-dark-grey: hsl(var(--neutral-dark-grey) / 1);
   --color-background-red: hsl(var(--extended-raspberry-7) / 1);
+  --color-light-pale-mint-grey: rgba(248, 250, 249, 1);
+  --color-facebook: #3a579d;
+  --color-grey: #838f93;
 }
 @utility text-* {
   font-size: --value(--text- *, integer);

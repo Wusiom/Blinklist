@@ -9,7 +9,7 @@ interface AppDownloadSectionProps {
 const AppDownloadSection: React.FC<AppDownloadSectionProps> = ({ className = '' }) => (
     <div className={`m:w-3/6 flex flex-col gap-6 ${className}`}>
         <div>
-            <a href="/en" aria-label="Back to homepage" className="flex items-center pb-4">
+            <a target="_blank" href="/en" aria-label="Back to homepage" className="flex items-center pb-4">
                 <img 
                     src={logo} 
                     alt="Blinkist Logo" 

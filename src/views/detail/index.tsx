@@ -1,5 +1,12 @@
+import Introduce from './introduce'
+import Article from './article'
 function Detail() {
-    return ( <h1>detail</h1> );
+    return ( 
+        <>
+            <Introduce />
+            <Article />
+        </>
+    );
 }
 
 export default Detail;

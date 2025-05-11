@@ -46,9 +46,8 @@ const SocialLink: React.FC<SocialLinkProps> = ({ href, platform, imageSrc, image
 
 const LegalLink: React.FC<LegalLinkProps> = ({ href, text, isLast }) => (
     <li>
-        <a 
+        <a target="_blank" 
             href={href} 
-            target="_blank" 
             rel="noopener noreferrer" 
             className="hover:text-blue-2"
         >
@@ -103,9 +102,8 @@ const FooterBottom: React.FC<FooterBottomProps> = ({ className = '' }) => {
             </ul>
             <ul data-testid="legal-links" className="text-dark-grey flex flex-wrap text-sm justify-center m:justify-start gap-y-2">
                 <li className="hover:text-blue-2 whitespace-nowrap">
-                    <a 
+                    <a target="_blank" 
                         href="https://www.blinkist.com/en" 
-                        target="_blank" 
                         rel="noopener noreferrer"
                     >
                         © Blinkist 2025
