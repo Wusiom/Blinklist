@@ -3,8 +3,8 @@ import TitleSection from './components/TitleSection';
 import FeatureList from './components/FeatureList';
 import VideoSection from './components/VideoSection';
 import ReviewSection from './components/ReviewSection';
-import StatsSection from './components/StatsSection';
-
+import StatsSection from '../../../components/StatsSection';
+import TrialButton from '../../../components/TrialButton';
 function HomePart2() {
     return (
         <>
@@ -21,6 +21,7 @@ function HomePart2() {
                 <a target="_blank" href="/en/onboarding/matrix" className="cursor-pointer inline-flex items-center justify-center whitespace-nowrap text-md font-medium ring-offset-white transition-colors focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-green focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 px-4 py-2 bg-green hover:bg-green-2 text-midnight s:max-w-74 w-full rounded-lg">Get started</a>
                 <ReviewSection />
                 <StatsSection />
+                <TrialButton />
             </div>
         </>
     );

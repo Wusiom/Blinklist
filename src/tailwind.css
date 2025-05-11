@@ -129,6 +129,9 @@
   --color-light-pale-mint-grey: rgba(248, 250, 249, 1);
   --color-facebook: #3a579d;
   --color-grey: #838f93;
+  --color-raspberry: rgba(255, 68, 93, 1);
+  --color-midnight-4: rgba(4, 64, 99, 1);
+  --color-blue-5: rgba(128, 181, 255, 1);
 }
 @utility text-* {
   font-size: --value(--text- *, integer);

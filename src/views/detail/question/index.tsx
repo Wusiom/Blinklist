@@ -1,5 +1,5 @@
-import * as React from 'react';
 import FAQ, { FAQItem } from '../../../components/FAQ';
+import * as React from 'react';
 
 const faqItems: FAQItem[] = [
     {
@@ -30,10 +30,10 @@ const faqItems: FAQItem[] = [
         question: 'Have more questions? Contact our Customer Support!',
         answer: 'You can reach them via support@blinkist.com'
     }
-];
+]
 
-function QuestionPart() {
-    return <FAQ items={faqItems} />;
+function Question() {
+    return <FAQ items={faqItems} title="The 5 AM Club FAQs"/>;
 }
 
-export default QuestionPart;
+export default Question;
