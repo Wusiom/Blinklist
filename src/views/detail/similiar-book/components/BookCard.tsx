@@ -15,7 +15,7 @@ export const BookCard: React.FC<BookCardProps> = ({
         <a 
             href={href} 
             aria-label={title} 
-            className="flex rounded font-cera-pro flex-shrink-0 w-44 snap-start p-0 flex-col w-44 p-2 box-content l:hover:bg-midnight-4 hover:cursor-pointer bg-midnight"
+            className="flex rounded font-cera-pro flex-shrink-0 w-44 snap-start flex-col p-2 box-content l:hover:bg-midnight-4 hover:cursor-pointer bg-midnight"
         >
             <img 
                 src={imageUrl} 

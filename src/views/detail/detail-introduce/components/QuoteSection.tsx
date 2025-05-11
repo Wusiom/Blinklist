@@ -2,7 +2,7 @@ import * as React from 'react';
 
 const QuoteSection: React.FC = () => {
     return (
-        <section id="book-quotes" data-toc="" className="flex flex-col mb-12 flex w-full max-w-[80rem] mx-auto m:px-12 px-4">
+        <section id="book-quotes" data-toc="" className="flex flex-col mb-12 w-full max-w-[80rem] mx-auto m:px-12 px-4">
             <h2 className="font-bold text-h35 text-midnight mb-4 max-w-2xl m:text-center m:mx-auto">
                 Best quote from <span className="font-normal italic">The 5 AM Club</span>
             </h2>

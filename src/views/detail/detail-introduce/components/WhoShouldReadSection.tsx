@@ -2,7 +2,7 @@ import * as React from 'react';
 
 const WhoShouldReadSection: React.FC = () => {
     return (
-        <section id="who-should-read-section" data-toc="" className="flex flex-col w-full mb-12 flex w-full max-w-[80rem] mx-auto m:px-12 px-4">
+        <section id="who-should-read-section" data-toc="" className="flex flex-col w-full mb-12 max-w-[80rem] mx-auto m:px-12 px-4">
             <h2 className="font-bold text-h35 text-midnight mb-4 m:w-2/3">
                 Who should read <span className="font-normal italic">The 5 AM Club</span>?
             </h2>

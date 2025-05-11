@@ -2,7 +2,7 @@ import * as React from 'react';
 
 const CategorySection: React.FC = () => {
     return (
-        <section className="flex flex-col mb-8 m:mb-12 flex w-full max-w-[80rem] mx-auto m:px-12">
+        <section className="flex flex-col mb-8 m:mb-12 w-full max-w-[80rem] mx-auto m:px-12">
             <h2 className="font-bold text-h35 text-midnight mb-4 px-4 m:px-0">
                 Categories with <span className="font-normal italic">The 5 AM Club</span>
             </h2>

@@ -6,7 +6,7 @@ interface AboutBookSectionProps {
 
 const AboutBookSection: React.FC<AboutBookSectionProps> = ({ bookTitle }) => {
     return (
-        <section id="about-the-book-section" data-toc="" className="flex flex-col w-full mb-12 w-full max-w-[80rem] mx-auto m:px-12 px-4">
+        <section id="about-the-book-section" data-toc="" className="flex flex-col w-full mb-12 max-w-[80rem] mx-auto m:px-12 px-4">
             <h2 className="font-bold text-h35 text-midnight mb-4 m:w-2/3">
                 What is <span className="font-normal italic">{bookTitle}</span> about?
             </h2>
